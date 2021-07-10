@@ -1,0 +1,23 @@
+.saveUser {
+  margin: 2rem auto;
+  width: 25rem;
+  max-width: 90%;
+}
+
+.saveUser:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.saveUser ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.saveUser li {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  line-height: 26px;
+  text-transform: capitalize;
+}

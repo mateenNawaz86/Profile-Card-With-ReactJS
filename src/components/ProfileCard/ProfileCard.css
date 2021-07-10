@@ -1,0 +1,39 @@
+.container {
+  padding: 1rem 2rem;
+}
+
+.card_heading {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.card_heading h1 {
+  color: #4c786b;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.profile_logo {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.fa-user-circle {
+  font-size: 8rem;
+  font-weight: lighter;
+  color: #57b3a7;
+}
+
+.form_controls {
+  margin-top: 2rem;
+}
+
+@media (max-width: 260px) {
+  .card_heading h1 {
+    font-size: 1rem;
+  }
+  .fa-user-circle {
+    font-size: 6rem;
+  }
+}

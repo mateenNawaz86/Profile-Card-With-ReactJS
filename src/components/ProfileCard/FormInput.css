@@ -1,0 +1,26 @@
+.form_controls label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  color: #9f9f9f;
+  user-select: none;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.form_controls input {
+  outline: none;
+  border: 1px solid #cdcdcd;
+  line-height: 27px;
+  width: 100%;
+  border-radius: 26px;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.form_controls input:hover,
+.form_controls input:active {
+  border: 1px solid #64d488;
+}
+

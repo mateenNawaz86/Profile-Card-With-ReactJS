@@ -1,0 +1,37 @@
+.saveBtn {
+  text-align: center;
+}
+
+button {
+  position: relative;
+  color: #062c21;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  padding: 10px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  background: #64d488;
+}
+
+button:hover {
+  left: 0;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 0 16px#63d3a6;
+}
+button:focus {
+  outline: none;
+}
+
+.btn {
+  font-weight: 600;
+  left: -20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 20px;
+  box-shadow: 15px 0 26px#63d3a6;
+}
